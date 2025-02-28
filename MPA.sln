@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPA", "MPA.csproj", "{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MPASetup", "..\MPASetup\MPASetup.vdproj", "{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,25 +13,22 @@ Global
 		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Debug|Default.ActiveCfg = Debug|Any CPU
 		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Debug|Default.Build.0 = Debug|Any CPU
 		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Release|Default.ActiveCfg = Release|Any CPU
 		{5F2BB9BD-E262-4502-87E2-D5E84F9BB335}.Release|Default.Build.0 = Release|Any CPU
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Debug|Any CPU.ActiveCfg = Debug
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Debug|Any CPU.Build.0 = Debug
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Debug|Default.ActiveCfg = Debug
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Debug|Default.Build.0 = Debug
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Release|Any CPU.ActiveCfg = Release
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Release|Any CPU.Build.0 = Release
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Release|Default.ActiveCfg = Release
-		{E0F32EAB-B834-4C01-962B-1E9ED6EA3C10}.Release|Default.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

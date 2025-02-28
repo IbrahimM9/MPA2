@@ -87,9 +87,9 @@
             this.siticoneButton1.IsReadOnly = false;
             this.siticoneButton1.IsToggleButton = false;
             this.siticoneButton1.IsToggled = false;
-            this.siticoneButton1.Location = new System.Drawing.Point(182, 2);
+            this.siticoneButton1.Location = new System.Drawing.Point(136, 2);
             this.siticoneButton1.LongPressDurationMS = 1000;
-            this.siticoneButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siticoneButton1.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneButton1.Name = "siticoneButton1";
             this.siticoneButton1.NormalFontStyle = System.Drawing.FontStyle.Regular;
             this.siticoneButton1.ParticleColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
@@ -107,7 +107,7 @@
             this.siticoneButton1.ShadowOffset = new System.Drawing.Point(2, 2);
             this.siticoneButton1.ShakeDuration = 500;
             this.siticoneButton1.ShakeIntensity = 5;
-            this.siticoneButton1.Size = new System.Drawing.Size(67, 55);
+            this.siticoneButton1.Size = new System.Drawing.Size(50, 45);
             this.siticoneButton1.TabIndex = 2;
             this.siticoneButton1.Text = "X";
             this.siticoneButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -125,9 +125,9 @@
             this.siticoneDragForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.siticoneDragForm1.Dock = System.Windows.Forms.DockStyle.Top;
             this.siticoneDragForm1.Location = new System.Drawing.Point(0, 0);
-            this.siticoneDragForm1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siticoneDragForm1.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneDragForm1.Name = "siticoneDragForm1";
-            this.siticoneDragForm1.Size = new System.Drawing.Size(249, 0);
+            this.siticoneDragForm1.Size = new System.Drawing.Size(187, 0);
             this.siticoneDragForm1.TabIndex = 3;
             this.siticoneDragForm1.TabStop = true;
             // 
@@ -141,9 +141,9 @@
             this.siticoneDragForm2.Controls.Add(this.siticoneButton1);
             this.siticoneDragForm2.Dock = System.Windows.Forms.DockStyle.Top;
             this.siticoneDragForm2.Location = new System.Drawing.Point(0, 0);
-            this.siticoneDragForm2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siticoneDragForm2.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneDragForm2.Name = "siticoneDragForm2";
-            this.siticoneDragForm2.Size = new System.Drawing.Size(249, 57);
+            this.siticoneDragForm2.Size = new System.Drawing.Size(187, 46);
             this.siticoneDragForm2.TabIndex = 4;
             this.siticoneDragForm2.TabStop = true;
             this.siticoneDragForm2.Paint += new System.Windows.Forms.PaintEventHandler(this.siticoneDragForm2_Paint);
@@ -152,9 +152,10 @@
             // 
             this.siticoneLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneLabel1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneLabel1.Location = new System.Drawing.Point(13, 17);
+            this.siticoneLabel1.Location = new System.Drawing.Point(10, 14);
+            this.siticoneLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.siticoneLabel1.Name = "siticoneLabel1";
-            this.siticoneLabel1.Size = new System.Drawing.Size(61, 28);
+            this.siticoneLabel1.Size = new System.Drawing.Size(46, 23);
             this.siticoneLabel1.TabIndex = 5;
             this.siticoneLabel1.Text = "MPA\r\n";
             this.siticoneLabel1.Click += new System.EventHandler(this.siticoneLabel1_Click);
@@ -208,9 +209,9 @@
             this.siticoneButton2.IsReadOnly = false;
             this.siticoneButton2.IsToggleButton = false;
             this.siticoneButton2.IsToggled = false;
-            this.siticoneButton2.Location = new System.Drawing.Point(35, 103);
+            this.siticoneButton2.Location = new System.Drawing.Point(26, 84);
             this.siticoneButton2.LongPressDurationMS = 1000;
-            this.siticoneButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siticoneButton2.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneButton2.Name = "siticoneButton2";
             this.siticoneButton2.NormalFontStyle = System.Drawing.FontStyle.Regular;
             this.siticoneButton2.ParticleColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
@@ -228,12 +229,12 @@
             this.siticoneButton2.ShadowOffset = new System.Drawing.Point(2, 2);
             this.siticoneButton2.ShakeDuration = 500;
             this.siticoneButton2.ShakeIntensity = 5;
-            this.siticoneButton2.Size = new System.Drawing.Size(180, 50);
+            this.siticoneButton2.Size = new System.Drawing.Size(135, 41);
             this.siticoneButton2.TabIndex = 5;
             this.siticoneButton2.Text = "Schijfcontrole";
             this.siticoneButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.siticoneButton2.TextColor = System.Drawing.Color.White;
-            this.siticoneButton2.TooltipText = null;
+            this.siticoneButton2.TooltipText = "Dit controleert de schijf op problemen";
             this.siticoneButton2.UseAdvancedRendering = true;
             this.siticoneButton2.UseParticles = false;
             this.siticoneButton2.Click += new System.EventHandler(this.siticoneButton2_Click);
@@ -287,9 +288,9 @@
             this.siticoneButton3.IsReadOnly = false;
             this.siticoneButton3.IsToggleButton = false;
             this.siticoneButton3.IsToggled = false;
-            this.siticoneButton3.Location = new System.Drawing.Point(35, 185);
+            this.siticoneButton3.Location = new System.Drawing.Point(26, 150);
             this.siticoneButton3.LongPressDurationMS = 1000;
-            this.siticoneButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siticoneButton3.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneButton3.Name = "siticoneButton3";
             this.siticoneButton3.NormalFontStyle = System.Drawing.FontStyle.Regular;
             this.siticoneButton3.ParticleColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
@@ -307,7 +308,7 @@
             this.siticoneButton3.ShadowOffset = new System.Drawing.Point(2, 2);
             this.siticoneButton3.ShakeDuration = 500;
             this.siticoneButton3.ShakeIntensity = 5;
-            this.siticoneButton3.Size = new System.Drawing.Size(180, 50);
+            this.siticoneButton3.Size = new System.Drawing.Size(135, 41);
             this.siticoneButton3.TabIndex = 6;
             this.siticoneButton3.Text = "Tijdelijke bestanden";
             this.siticoneButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -366,9 +367,9 @@
             this.siticoneButton5.IsReadOnly = false;
             this.siticoneButton5.IsToggleButton = false;
             this.siticoneButton5.IsToggled = false;
-            this.siticoneButton5.Location = new System.Drawing.Point(35, 271);
+            this.siticoneButton5.Location = new System.Drawing.Point(26, 220);
             this.siticoneButton5.LongPressDurationMS = 1000;
-            this.siticoneButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siticoneButton5.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneButton5.Name = "siticoneButton5";
             this.siticoneButton5.NormalFontStyle = System.Drawing.FontStyle.Regular;
             this.siticoneButton5.ParticleColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
@@ -386,7 +387,7 @@
             this.siticoneButton5.ShadowOffset = new System.Drawing.Point(2, 2);
             this.siticoneButton5.ShakeDuration = 500;
             this.siticoneButton5.ShakeIntensity = 5;
-            this.siticoneButton5.Size = new System.Drawing.Size(180, 50);
+            this.siticoneButton5.Size = new System.Drawing.Size(135, 41);
             this.siticoneButton5.TabIndex = 8;
             this.siticoneButton5.Text = "Prullenbak leegmaken";
             this.siticoneButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -398,17 +399,17 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(249, 357);
+            this.ClientSize = new System.Drawing.Size(187, 290);
             this.Controls.Add(this.siticoneDragForm2);
             this.Controls.Add(this.siticoneButton5);
             this.Controls.Add(this.siticoneButton3);
             this.Controls.Add(this.siticoneButton2);
             this.Controls.Add(this.siticoneDragForm1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MPA - Multi Purpose Automator";

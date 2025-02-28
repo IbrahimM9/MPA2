@@ -68,7 +68,15 @@ namespace MPA
             }
             catch (IOException) 
             {
-                MessageBox.Show("Sommige bestanden zijn nog in gebruik, deze zijn niet verwijderd.");
+                MessageBox.Show("Sommige bestanden zijn nog in gebruik, deze zijn niet verwijderd.", "Bestanden in gebruik", MessageBoxButtons.OK);
+            }
+            catch (UnauthorizedAccessException)
+            {
+                MessageBox.Show("Je hebt niet genoeg rechten om deze bestanden te verwijderen. Start het programma als Administrator", "Toegang geweigerd", MessageBoxButtons.OK);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Er is een fout opgetreden: {ex.Message}", "Fout", MessageBoxButtons.OK);
             }
             
         }
