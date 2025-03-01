@@ -63,8 +63,10 @@ namespace MPA
         private void siticoneButton3_Click(object sender, EventArgs e)
         {         
             try 
-            { 
-                System.IO.Directory.Delete($@"C:\Users\sontr\AppData\Local\Temp", true); 
+            {
+                string tempPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Temp");
+
+                Directory.Delete(tempPath, true);
             }
             catch (IOException) 
             {
